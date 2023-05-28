@@ -166,6 +166,38 @@ header {
   display: none;
 }
 
+.rodape {
+  height: 230px;
+  background-color: #8f4ea6;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 0 3rem 0;
+}
+
+.icone-rodape img {
+  width: 5rem;
+}
+
+.endereco-rodape {
+  width: 20rem;
+  font-size: 0.8rem;
+}
+
+.termos {
+  display: flex;
+  gap: 2rem;
+  font-size: .8rem;
+}
+
+.termos span a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .mt-1 {
   margin-top: 1rem;
 }
