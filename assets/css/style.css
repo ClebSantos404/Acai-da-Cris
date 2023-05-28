@@ -1,0 +1,194 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+.container-topo {
+  background: url("../images/fundo-acai-do-cris.png") no-repeat center center;
+  background-size: cover;
+}
+
+header {
+  width: 100vw;
+  height: 15em;
+  background: #ffffff;
+}
+
+.panel-topo {
+  height: 15rem;
+}
+
+.navegador .endereco-entrega a,
+.login a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-header {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #333;
+}
+
+.acai-icon {
+  width: 20rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.acai-icon img {
+  width: 10rem;
+}
+
+.btn {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-sharp {
+  width: 20px;
+}
+
+.aberto-fechado {
+  width: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #5cb85c;
+  text-align: center;
+  color: #fff;
+  font-family:"Helvetica Neue",Arial,sans-serif !important;
+  font-weight: 400;
+}
+
+.endereco span img {
+  width: 14px;
+}
+
+.endereco {
+  background-color: #8f4ea6;
+  display: flex;
+  justify-content: center;
+  padding: 11px;
+}
+
+.endereco span a{
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.text-entrega {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #797978;
+  font-size: 0.9em;
+}
+
+.alinhar {
+  display: flex;
+  gap: 5px;
+}
+
+.buscador {
+  display: flex;
+  justify-content: center;
+}
+
+.responsive-input {
+  width: 23em;
+  padding: 10px;
+  margin: 0 0 0 1rem;;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.buscador button {
+  padding: 0 .8rem;
+  margin:  0 1rem 0 0;
+  background-color: rgba(0, 0, 0, 0.849);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.combinacoes,
+.acai,
+.acaiZero,
+.milkshake,
+.salada,
+.bolos,
+.sobremesa,
+.brownie,
+.bebidas {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-estilo {
+  width: 27em;
+  height: 3.5em;
+  padding: 15px;
+  border: 1px dashed rgba(43, 42, 42, 0.11);
+  border-radius: 3px;
+  background-color: rgba(31, 31, 31, 0.055);
+  color: rgba(156, 0, 156, 0.801);
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.combinacoes-options,
+.acai-options,
+.acaiZero-options,
+.milkshake-options,
+.salada-options,
+.bolos-options,
+.sobremesa-options,
+.brownie-options,
+.bebidas-options {
+  display: none;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.espaco {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
