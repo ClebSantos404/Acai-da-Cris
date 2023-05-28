@@ -1,0 +1,23 @@
+@media (max-width: 600px) {
+  .responsive-input {
+    font-size: 14px;
+  }
+
+  .hidden {
+    display: none;
+  }
+}
+
+@media (max-width: 380px) {
+  .text-entrega {
+    font-size: .8rem;
+  }
+
+  .responsive-input {
+    width: 21em;
+  }
+
+  .btn-estilo {
+    width: 24.5em;
+  }
+}
