@@ -1,3 +1,16 @@
+const combosPromoButton = document.addEventListener('DOMContentLoaded', function() {
+  var toggleButton = document.querySelector(".combosPromo-toggle");
+  var combosPromoOptions = document.querySelector(".combosPromo-options");
+
+  toggleButton.addEventListener("click", function () {
+    if (combosPromoOptions.style.display === "none") {
+      combosPromoOptions.style.display = "block";
+    } else {
+      combosPromoOptions.style.display = "none";
+    }
+  });
+});
+
 const acaiButton = document.addEventListener("DOMContentLoaded", function () {
   var toggleButton = document.querySelector(".acai-toggle");
   var acaiOptions = document.querySelector(".acai-options");

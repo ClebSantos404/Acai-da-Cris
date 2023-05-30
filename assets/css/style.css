@@ -127,6 +127,7 @@ header {
   cursor: pointer;
 }
 
+.combos,
 .combinacoes,
 .acai,
 .acaiZero,
@@ -154,6 +155,7 @@ header {
   overflow: hidden;
 }
 
+.combosPromo-options,
 .combinacoes-options,
 .acai-options,
 .acaiZero-options,
