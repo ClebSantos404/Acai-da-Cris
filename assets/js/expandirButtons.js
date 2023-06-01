@@ -1,4 +1,6 @@
 const expancaoDeBotoes = document.addEventListener("DOMContentLoaded", function () {
+
+  // váriveis de cada botão
     var toggleButtonPromo = document.querySelector(".combosPromo-toggle");
     var combosPromoOptions = document.querySelector(".combosPromo-options");
     var toggleButtonAcai = document.querySelector(".acai-toggle");
