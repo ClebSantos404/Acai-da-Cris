@@ -109,12 +109,13 @@ header {
 
 .responsive-input {
   width: 23em;
-  padding: 10px;
+  padding: 9px;
   margin: 0 0 0 1rem;;
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
+  outline: none;
 }
 
 .buscador button {
@@ -153,6 +154,46 @@ header {
   font-weight: 500;
   cursor: pointer;
   overflow: hidden;
+}
+
+.listStyle {
+  width: 22.5rem;
+  padding: 10px;
+  display: flex;
+  font-size: 1rem;
+  border: 1px dashed rgba(43, 42, 42, 0.164);
+}
+
+.listStyle .textStyle {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #414040;
+}
+
+.infoItem {
+  width: 21rem;
+  font-size: 0.8rem !important;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #414040;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.price {
+  color: green;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price button {
+  padding: 5px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
 }
 
 .combosPromo-options,
