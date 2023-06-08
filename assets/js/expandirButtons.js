@@ -1,26 +1,26 @@
 const expancaoDeBotoes = document.addEventListener("DOMContentLoaded", function () {
 
   // váriveis de cada botão
-    var toggleButtonPromo = document.querySelector(".combosPromo-toggle");
-    var combosPromoOptions = document.querySelector(".combosPromo-options");
-    var toggleButtonAcai = document.querySelector(".acai-toggle");
-    var acaiOptions = document.querySelector(".acai-options");
-    var toggleButtonCombinacoes = document.querySelector(".combinacoes-toggle");
-    var combinacoesOptions = document.querySelector(".combinacoes-options");
-    var toggleButtonAcaiZero = document.querySelector(".acaiZero-toggle");
-    var acaiZeroOptions = document.querySelector(".acaiZero-options");
-    var toggleButtonMilkShake = document.querySelector(".milkshake-toggle");
-    var milkShakeOptions = document.querySelector(".milkshake-options");
-    var toggleButtonSalada = document.querySelector(".salada-toggle");
-    var saladaOptions = document.querySelector(".salada-options");
-    var toggleButtonBolos = document.querySelector(".bolos-toggle");
-    var bolosOptions = document.querySelector(".bolos-options");
-    var toggleButtonSobremesa = document.querySelector(".sobremesa-toggle");
-    var sobremesaOptions = document.querySelector(".sobremesa-options");
-    var toggleButtonBrownie = document.querySelector(".brownie-toggle");
-    var brownieOptions = document.querySelector(".brownie-options");
-    var toggleButtonBebidas = document.querySelector(".bebidas-toggle");
-    var bebidasOptions = document.querySelector(".bebidas-options");
+    const toggleButtonPromo = document.querySelector(".combosPromo-toggle");
+    const combosPromoOptions = document.querySelector(".combosPromo-options");
+    const toggleButtonAcai = document.querySelector(".acai-toggle");
+    const acaiOptions = document.querySelector(".acai-options");
+    const toggleButtonCombinacoes = document.querySelector(".combinacoes-toggle");
+    const combinacoesOptions = document.querySelector(".combinacoes-options");
+    const toggleButtonAcaiZero = document.querySelector(".acaiZero-toggle");
+    const acaiZeroOptions = document.querySelector(".acaiZero-options");
+    const toggleButtonMilkShake = document.querySelector(".milkshake-toggle");
+    const milkShakeOptions = document.querySelector(".milkshake-options");
+    const toggleButtonSalada = document.querySelector(".salada-toggle");
+    const saladaOptions = document.querySelector(".salada-options");
+    const toggleButtonBolos = document.querySelector(".bolos-toggle");
+    const bolosOptions = document.querySelector(".bolos-options");
+    const toggleButtonSobremesa = document.querySelector(".sobremesa-toggle");
+    const sobremesaOptions = document.querySelector(".sobremesa-options");
+    const toggleButtonBrownie = document.querySelector(".brownie-toggle");
+    const brownieOptions = document.querySelector(".brownie-options");
+    const toggleButtonBebidas = document.querySelector(".bebidas-toggle");
+    const bebidasOptions = document.querySelector(".bebidas-options");
 
     // botão de combos promocionais
     toggleButtonPromo.addEventListener("click", function () {
