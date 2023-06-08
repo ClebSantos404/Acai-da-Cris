@@ -247,7 +247,7 @@ header {
   background-color:rgb(156, 0, 156);
   color: #fff;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 0 10px;
 
   position: fixed;
@@ -262,7 +262,14 @@ header {
   justify-content: center;
   font-size: 1rem;
   margin: 0 10px;
-  cursor: pointer;
+}
+
+.menuButtons span a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
 }
 
 .mt-1 {
